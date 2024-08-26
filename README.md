@@ -12,6 +12,7 @@ BaseBud was developed as an exercise to learn **list comprehension** in Python a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Explanation](#code-explanation)
+- [Contributing](#contributing)
 - [Liscense](#license)
 
 ## Features
@@ -153,3 +154,9 @@ if __name__ == "__main__":
 ```
 
 - Purpose: `if __name__ == "__main__"` is a common idiom in Python and a condition  which allows you to specify Python code that should only execute when the script is run directly. When the script is run directly, `__name__` is set to `"__main__"`. However, if the module is imported to another script, `__name__` is set to that very module's name.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to submit a pull request or open an issue.
+
+Thank you for checking out BaseBud! I hope you find it useful. Keep coding!
