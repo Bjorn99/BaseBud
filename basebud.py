@@ -69,7 +69,7 @@ def main():
     else:
         print_bold("Not enough sequences to compare")
             
-
+# Not a module
 if __name__ == "__main__":
     main()
 
