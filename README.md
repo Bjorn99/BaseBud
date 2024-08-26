@@ -38,6 +38,9 @@ To use BaseBud, you'll need to have Python installed on your machine and a termi
    python basebud.py
    ```
 
+3. There is another way. You can just download the python script from the repo instead of cloning the whole repo.
+After downloading the python script, follow installation steps `1 and 2`.
+
 ## Usage
 
 1. Start the program by executing the script.
