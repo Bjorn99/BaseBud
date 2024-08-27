@@ -34,10 +34,12 @@ def mut_detect(s1, s2):
 
     return mutations
 
+# For bold texts
 def print_bold(text):
     print(f'\033[1m{text}\033[0m')
 
 
+# Organising everything together
 def main():
     sequences = input_sequences()
     gc_con = gc_content(sequences)
