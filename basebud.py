@@ -58,7 +58,7 @@ def main():
         # Print the GC content of the given sequences
         gc1 = gc_con[s1_index]
         gc2 = gc_con[s2_index]
-        print(f"GC content of selected sequences: {sequences[s1_index]}: \033[1mGC Content: {gc1:.2f}%\033[0m, \n{sequences[s2_index]}: \033[1mGC Content: {gc2:.2f}%\033[0m")
+        print(f"GC content of selected sequences: {sequences[s1_index]}: \033[1mGC Content: {gc1:.2f}%\033[0m, \n\n{sequences[s2_index]}: \033[1mGC Content: {gc2:.2f}%\033[0m")
 
         mutations = mut_detect(sequences[s1_index], sequences[s2_index])
 
