@@ -33,7 +33,6 @@ To use BaseBud, you'll need to have Python installed on your machine and a termi
    ```
 
 2. Run the script:
-- 
    ```bash
    python basebud.py
    ```
@@ -95,9 +94,6 @@ def mut_detect(s1, s2):
             mutations.append((i, s1[i], s2[i])) # (position, base in s1, s2)
 
     return mutations
-
-def print_bold(text):
-    print(f'\033[1m{text}\033[0m')
 ```
 
 - Purpose: This function mainly compares two sequences by comparing them base by base and returns the difference in base in the same exact position.
